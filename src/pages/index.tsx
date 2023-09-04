@@ -18,7 +18,6 @@ export default function Home() {
 
       <img className="logo" src="/logo.png"></img>
       <div className="abme text-center text-x1 font-semibold text-purple-600">
-        <p>Full stack developer</p>
       </div>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
 
@@ -42,7 +41,7 @@ export default function Home() {
         
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+          href="/connect"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
