@@ -4,7 +4,9 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  <title>Home - Rome</title>
   return (
+    
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
@@ -15,7 +17,7 @@ export default function Home() {
         </p>
         
       </div>
-
+{/* Made using NEXT.js React Framework, https://nextjs.org/*/}
       <img className="logo" src="/logo.png"></img>
       <div className="abme text-center text-x1 font-semibold text-purple-600">
       </div>
